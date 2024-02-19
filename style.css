@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+}
+.periodico {
+  font-size: 80px;
+  font-family: "Old English Five";
+
+  margin: 0;
+}
+
+.subtitulo {
+  margin: 0;
+  font-family: "arial";
+  font-size: 30px;
+  font-weight: 100;
+}
+
+hr {
+  margin: 0;
+}
+
+.primicia {
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+  font-family: "arial";
+}
+
+.page1 {
+  max-width: 80%;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: auto;
+  background-color: white;
+}
+.container__subtitulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__subtitulo p {
+  font-size: 30px;
+  margin: 0;
+  font-family: arial;
+}
+
+.titular {
+  margin: 0;
+  font-size: 50px;
+  font-family: "Archivo Narrow";
+}
+
+.imagen {
+  max-width: 50%;
+  width: 500px;
+  height: 330px;
+}
+
+.contenido {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.contenidoTitular {
+  width: 40%;
+}
+.contenidoDoble {
+  display: flex;
+  gap: 15px;
+  text-align: justify;
+}
+.lineaVertical {
+  width: 2px;
+  height: 400px;
+  background-color: black;
+}
